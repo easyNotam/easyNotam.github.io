@@ -67,10 +67,24 @@
             padding-bottom: 5em;
         }
 
-        .footer.segment {
+        .footer.segment{
             padding: 5em 0em;
         }
-
+        .ui.vertical.stripe.segment.pricing{
+            padding-bottom: 15em;
+        }
+        .ui.vertical.stripe.segment.contact{
+            padding-bottom: 10em;
+        }
+        .ui.horizontal.divider.header{
+            padding-bottom: 2em;
+        }
+        h2.ui.header{
+            padding-bottom:2em;
+        }
+        .ui.button{
+            margin-top:2em;
+        }
         .secondary.pointing.menu .toc.item {
             display: none;
         }
