@@ -1,10 +1,14 @@
+
         .hidden.menu {
             display: none;
         }
         .ui.menu {
             margin: 0em;
+            color: #530000;
         }
-
+        .ui.inverted.header{
+            padding-top: 4em;
+        }
         .masthead.segment {
             min-height: 700px;
             padding-bottom: 0em;
@@ -102,7 +106,9 @@
             .secondary.pointing.menu .toc.item {
                 display: block;
             }
-
+            .ui.verticical.masthead{
+                size: relative;
+            }
             .masthead.segment {
                 min-height: 350px;
             }
