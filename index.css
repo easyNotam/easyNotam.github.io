@@ -2,16 +2,16 @@
         .hidden.menu {
             display: none;
         }
-        .ui.menu {
+        .ui.huge.top.menu.main {
             margin: 0em;
-            color: #530000;
         }
-        .ui.inverted.header{
-            padding-top: 4em;
+        .ui.centered.image{
+            padding-top: 8em;
         }
-        .masthead.segment {
+        .ui.vertical.masthead.segment {
             min-height: 700px;
             padding-bottom: 0em;
+            background-color: #b90b0b;
         }
         .ui.segment {
             padding-top: 0em;
