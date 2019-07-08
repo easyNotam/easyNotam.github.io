@@ -8,29 +8,6 @@
     crossorigin="anonymous" />
   <link rel="stylesheet" href="index.css" />
   <link rel="icon" href="assets/images/logo.png">
-
-  <script>
-    $(document)
-      .ready(function () {
-
-        // fix menu when passed
-        $('.masthead')
-          .visibility({
-            once: false,
-            onBottomPassed: function () {
-              $('.fixed.menu').transition('fade in');
-            },
-            onBottomPassedReverse: function () {
-              $('.fixed.menu').transition('fade out');
-            }
-          });
-
-        // create sidebar and attach to menu open
-        $('.ui.sidebar')
-          .sidebar('attach events', '.toc.item');
-
-      });
-  </script>
 </head>
 
 <body class="pushable">
